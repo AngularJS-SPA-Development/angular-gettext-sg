@@ -1,6 +1,6 @@
 {
   "name": "angular-gettext-sg",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Survey Gorilla Gettext support for Angular.js",
   "author": {
     "name": "Peter Yun",
