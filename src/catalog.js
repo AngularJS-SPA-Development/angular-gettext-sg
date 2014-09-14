@@ -1,4 +1,4 @@
-angular.module('gettext').factory('gettextCatalog', function (gettextPlurals, $http, $cacheFactory, $interpolate, $rootScope) {
+angular.module('gettext').factory('gettextCatalog', function (gettextPlurals, $cacheFactory, $interpolate, $rootScope) {
     var catalog;
 
     var prefixDebug = function (string) {
@@ -51,18 +51,6 @@ angular.module('gettext').factory('gettextCatalog', function (gettextPlurals, $h
             var form = gettextPlurals(this.currentLanguage, n);
             string = this.getStringForm(string, form) || prefixDebug(n === 1 ? string : stringPlural);
             return context ? $interpolate(string)(context) : string;
-        },
-
-        loadRemote: function (url) {
-            return $http({
-                method: 'GET',
-                url: url,
-                cache: catalog.cache
-            }).success(function (data) {
-                for (var lang in data) {
-                    catalog.setStrings(lang, data[lang]);
-                }
-            });
         }
     };
 

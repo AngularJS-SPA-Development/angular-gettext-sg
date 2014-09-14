@@ -1,7 +1,17 @@
 {
-  "name": "angular-gettext",
-  "version": "1.1.0",
-  "description": "Gettext support for Angular.js",
+  "name": "angular-gettext-sg",
+  "version": "0.0.1",
+  "description": "Survey Gorilla Gettext support for Angular.js",
+  "author": {
+    "name": "Peter Yun",
+    "email": "nulpulum@gmail.com",
+    "url": "http://mobicon.tistory.com/"
+  },
+  "original author": {
+    "name": "Ruben Vermeersch",
+    "email": "ruben@rocketeer.be",
+    "url": "http://rocketeer.be/"
+  },
   "main": "dist/angular-gettext.js",
   "directories": {
     "test": "test"
@@ -14,10 +24,9 @@
     "angular",
     "gettext"
   ],
-  "author": {
-    "name": "Ruben Vermeersch",
-    "email": "ruben@rocketeer.be",
-    "url": "http://rocketeer.be/"
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:AngularJS-SPA-Development/angular-gettext-sg.git"
   },
   "homepage": "http://angular-gettext.rocketeer.be/",
   "license": "MIT",
@@ -40,9 +49,5 @@
     "karma-mocha": "~0.1.0",
     "karma-ng-scenario": "~0.1.0",
     "karma-phantomjs-launcher": "^0.1.4"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/rubenv/angular-gettext.git"
   }
 }
