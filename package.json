@@ -3,14 +3,14 @@
   "version": "0.0.2",
   "description": "Survey Gorilla Gettext support for Angular.js",
   "author": {
-    "name": "Peter Yun",
-    "email": "nulpulum@gmail.com",
-    "url": "http://mobicon.tistory.com/"
-  },
-  "original author": {
     "name": "Ruben Vermeersch",
     "email": "ruben@rocketeer.be",
     "url": "http://rocketeer.be/"
+  },  
+  "modifier": {
+    "name": "Peter Yun",
+    "email": "nulpulum@gmail.com",
+    "url": "http://mobicon.tistory.com/"
   },
   "main": "dist/angular-gettext.js",
   "directories": {
